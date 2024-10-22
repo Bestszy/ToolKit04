@@ -30,15 +30,15 @@
                     <Menu>Toolkitt04</Menu>
                     <Geometry>
                         <Size>
-                            <Height>890</Height>
+                            <Height>930</Height>
                             <Width>300</Width>
                         </Size>
                         <MaxSize>
-                            <Height>890</Height>
+                            <Height>930</Height>
                             <Width>300</Width>
                         </MaxSize>
                         <MinSize>
-                            <Height>890</Height>
+                            <Height>930</Height>
                             <Width>300</Width>
                         </MinSize>
                     </Geometry>

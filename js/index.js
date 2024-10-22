@@ -16,6 +16,10 @@ document.getElementById("box2").onchange=function(){
     var arryMode = document.getElementsByClassName("mode");
     var arryRadio = document.getElementsByName('repetition');
     if(selection==='wycena'){
+      //alert("works");
+      var toTestt="works"
+      var toTest = 'testTest ={test:"'+toTestt+'"};'
+      csInterface.evalScript(toTest + "testOpen()",);
       Array.from(arryMode).forEach(function(item){item.setAttribute("disabled","disabled")});
       Array.from(arryRadio).forEach(function(item){item.checked=false})
     }else if(selection==="druk"){

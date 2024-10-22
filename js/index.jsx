@@ -14,6 +14,11 @@ function resizeButton(){
   var doc = app.activeDocument;
   doc.resizeImage(undefined, undefined, resizAply.reDpi, ResampleMethod.NONE)
 }
+function testOpen(){
+  var doc = app.activeDocument;
+  alert("works");
+}
+
 //***main function cooperate with directory f.***
   function saveDocument(){
 //var docCopy = app.activeDocument.duplicate();
@@ -92,6 +97,7 @@ if (fabric.fabric == 'kreton') {var path = "Y:\\_pliki-zamowienia\\!KRETON";
 } else if(fabric.fabric == 'jersey 200') {var path = "Y:\\_pliki-zamowienia\\!JERSEY 200";
 } else if(fabric.fabric == 'jersey 230') {var path = "Y:\\_pliki-zamowienia\\!JERSEY 230";
 } else if(fabric.fabric == 'interlock') {var path = "Y:\\_pliki-zamowienia\\!INTERLOCK";
+} else if(fabric.fabric == 'ORG interlock') {var path = "Y:\\_pliki-zamowienia\\!ORGANIC INTERLOCK";  
 } else if(fabric.fabric == 'pętelka 250') {var path = "Y:\\_pliki-zamowienia\\!PĘTELKA 250";
 } else if(fabric.fabric == 'pętelka 300') {var path = "Y:\\_pliki-zamowienia\\!PĘTELKA 300";
 } else if(fabric.fabric == 'BIO satyna') {var path = "Y:\\_pliki-zamowienia\\!ORGANIC SATYNA";
@@ -132,6 +138,19 @@ if (fabric.fabric == 'kreton') {var path = "Y:\\_pliki-zamowienia\\!KRETON";
 } else if(fabric.fabric == 'REA P250') {var path = "Y:\\_pliki-zamowienia\\!REAKTYWNA P250";
 } else if(fabric.fabric == 'sherpa fleece') {var path = "Y:\\_pliki-zamowienia\\!SHERPA FLEECE";
 } else if(fabric.fabric == 'velvet stretch') {var path = "Y:\\_pliki-zamowienia\\!VELVET STRETCH";
+} else if(fabric.fabric == 'panama natural') {var path = "Y:\\_pliki-zamowienia\\!PANAMA NATURAL";
+} else if(fabric.fabric == 'half-panama') {var path = "Y:\\_pliki-zamowienia\\!HALF-PANAMA";
+} else if(fabric.fabric == 'half-panama natural') {var path = "Y:\\_pliki-zamowienia\\!HALF-PANAMA NATURAL";
+} else if(fabric.fabric == 'wiskoza soft') {var path = "Y:\\_pliki-zamowienia\\!WISKOZA SOFT";
+} else if(fabric.fabric == 'mikrofibra') {var path = "Y:\\_pliki-zamowienia\\!MIKROFIBRA";
+} else if(fabric.fabric == 'termofit') {var path = "Y:\\_pliki-zamowienia\\!TERMOFIT";
+} else if(fabric.fabric == 'polar') {var path = "Y:\\_pliki-zamowienia\\!POLAR";
+} else if(fabric.fabric == 'plusz') {var path = "Y:\\_pliki-zamowienia\\!PLUSZ";
+} else if(fabric.fabric == 'pętlka 380') {var path = "Y:\\_pliki-zamowienia\\!PĘTELKA 380";
+} else if(fabric.fabric == 'drapana 270') {var path = "Y:\\_pliki-zamowienia\\!DRAPANA 270";
+} else if(fabric.fabric == 'drapana 330') {var path = "Y:\\_pliki-zamowienia\\!DRAPANA 330";
+} else if(fabric.fabric == 'dresówka diagonal') {var path = "Y:\\_pliki-zamowienia\\!DRESÓWKA DIAGONAL";
+
 
 } else if(fabric.fabric == 'test') {var path = "Y:\\_pliki-zamowienia\\!TEST";
 //Y:\_pliki-zamowienia\single_org_200\82860-268516-standard-single_org_200-300-m-12_0.tif
